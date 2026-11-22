@@ -2,7 +2,7 @@
 
 Handbuilt software solutions website for RemzTech — built with Next.js 14, TypeScript, Tailwind CSS, and Decap CMS.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router) + TypeScript
 - **Styling**: Tailwind CSS (custom RemzTech color palette)
@@ -12,7 +12,7 @@ Handbuilt software solutions website for RemzTech — built with Next.js 14, Typ
 - **Forms**: Netlify Forms (free)
 - **Icons**: Lucide React
 
-## 🎨 Brand Colors
+## Brand Colors
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -22,7 +22,7 @@ Handbuilt software solutions website for RemzTech — built with Next.js 14, Typ
 | Forest | `#4D774E` | Secondary buttons, cards |
 | Sage | `#9DC88D` | Light backgrounds, hover states |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 remztech/
@@ -51,7 +51,7 @@ remztech/
 └── package.json
 ```
 
-## 🛠️ Development
+## Development
 
 ```bash
 # Install dependencies
@@ -76,7 +76,7 @@ npm run lint
 npm run format
 ```
 
-## 🔐 Security Features
+## Security Features
 
 - **Zero secrets in code** — All config via Vercel Environment Variables
 - **Strict CSP** — Configured in `next.config.js`
@@ -100,7 +100,7 @@ npm run format
 - **Testimonials** — Client quotes for trust signals
 - **Blog Posts** — Optional articles/insights
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 1. Push to GitHub
@@ -115,7 +115,7 @@ npm run format
    - CNAME: `www` → `cname.vercel-dns.com`
 3. Vercel provisions SSL automatically
 
-## 📞 Contact Configuration
+## Contact Configuration
 
 | Channel | Value |
 |---------|-------|
@@ -124,7 +124,7 @@ npm run format
 | Phone | `+27 69 753 0923` |
 | Location | Durban, KwaZulu-Natal, South Africa |
 
-## 🎯 Key Features
+## Key Features
 
 - ✅ **5 Pages**: Home, About, Services (6 detail pages), Journey, Contact
 - ✅ **Mobile-first responsive** design
@@ -135,6 +135,6 @@ npm run format
 - ✅ **SEO optimized** — Meta tags, Open Graph, sitemap
 - ✅ **Free hosting** on Vercel (only pay for domain)
 
-## 📄 License
+## License
 
 MIT License — Built for RemzTech
