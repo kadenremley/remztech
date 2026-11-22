@@ -85,7 +85,7 @@ npm run format
 - **XSS protection** — React's built-in escaping + DOMPurify for CMS content
 - **Form spam protection** — Honeypot field + Netlify Forms spam filtering
 
-## 📝 Content Management (Decap CMS)
+## Content Management (Decap CMS)
 
 1. Deploy to Netlify or Vercel with Netlify Identity enabled
 2. Enable **Git Gateway** in Netlify dashboard
