@@ -1,0 +1,28 @@
+title: "Custom Applications"
+slug: "custom-apps"
+icon: "Layout"
+shortDesc: "Tailored software that fits your workflow — not the other way around."
+fullDesc: |
+  Off-the-shelf software forces you to change your process. Custom software adapts to your process. I build applications that mirror how your business actually works.
+
+  **What this includes:**
+  - Business process automation
+  - Custom CRM/ERP modules
+  - Booking & scheduling systems
+  - Inventory & POS integrations
+  - Client portals & dashboards
+  - Integration with existing tools (Xero, QuickBooks, etc.)
+
+  **Examples I've built:**
+  - Restaurant POS with kitchen display & inventory sync
+  - Barber booking app with WhatsApp reminders & loyalty
+  - Healthcare patient portal with POPIA-compliant records
+  - Multi-location inventory with automated transfers
+features:
+  - "Business process automation"
+  - "Custom CRM/ERP modules"
+  - "Booking & scheduling systems"
+  - "Inventory & POS integrations"
+  - "Client portals & dashboards"
+  - "Integration with existing tools (Xero, QuickBooks, etc.)"
+ctaText: "Build Your App"

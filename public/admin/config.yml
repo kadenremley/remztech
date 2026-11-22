@@ -1,0 +1,109 @@
+# Decap CMS Configuration for RemzTech
+# Access at: https://remztech.co.za/admin
+# Requires Netlify Identity + Git Gateway enabled
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+site_url: https://remztech.co.za
+display_url: https://remztech.co.za
+
+logo_url: /images/logo.svg
+
+slug:
+  encoding: ascii
+  sanitize_replacement: '-'
+
+publish_mode: editorial_workflow
+
+collections:
+  # Site Settings - Global editable content
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "src/content/settings/general.yml"
+        fields:
+          - {label: "Site Title", name: "siteTitle", widget: "string", default: "RemzTech"}
+          - {label: "Tagline", name: "tagline", widget: "string", default: "Handbuilt Software Solutions"}
+          - {label: "Hero Headline", name: "heroHeadline", widget: "text", default: "Handbuilt Software. Direct Access. Smarter Futures."}
+          - {label: "Hero Subtext", name: "heroSubtext", widget: "text", default: "Custom software development, IT consulting, cybersecurity, cloud solutions & managed services. No templates. No middlemen. You work directly with the engineer — 24/7."}
+          - {label: "About Text", name: "aboutText", widget: "markdown", default: "I'm the engineer. You talk to me. No handoffs. No miscommunication. Just code that works."}
+          - {label: "WhatsApp Number", name: "whatsappNumber", widget: "string", default: "27697530923", pattern: ['^\\d+$', 'Numbers only, no spaces or +']}
+          - {label: "Email", name: "email", widget: "string", default: "remztech@gmail.com", pattern: ['^.+@.+\\..+$', 'Valid email required']}
+          - {label: "Phone", name: "phone", widget: "string", default: "+27 69 753 0923"}
+          - {label: "Location", name: "location", widget: "string", default: "Durban, KwaZulu-Natal, South Africa"}
+
+  # Services Collection
+  - name: "services"
+    label: "Services"
+    folder: "src/content/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string", pattern: ['^[a-z0-9-]+$', 'Lowercase, numbers, hyphens only']}
+      - {label: "Icon", name: "icon", widget: "select", options: ["Code", "Cpu", "Shield", "Cloud", "Monitor", "Layout"], default: "Code"}
+      - {label: "Short Description", name: "shortDesc", widget: "text"}
+      - {label: "Full Description", name: "fullDesc", widget: "markdown"}
+      - {label: "Features", name: "features", widget: "list", field: {label: "Feature", name: "feature", widget: "string"}}
+      - {label: "CTA Text", name: "ctaText", widget: "string", default: "Get Started"}
+
+  # Case Studies / Portfolio
+  - name: "caseStudies"
+    label: "Case Studies"
+    folder: "src/content/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Client Name", name: "client", widget: "string"}
+      - {label: "Industry", name: "industry", widget: "select", options: ["restaurants", "barbers", "healthcare"]}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Challenge", name: "challenge", widget: "markdown"}
+      - {label: "Solution", name: "solution", widget: "markdown"}
+      - {label: "Results", name: "results", widget: "list", field: {label: "Result", name: "result", widget: "string"}}
+      - {label: "Tech Stack", name: "techStack", widget: "list", field: {label: "Technology", name: "tech", widget: "string"}}
+      - {label: "Duration", name: "duration", widget: "string"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+
+  # Testimonials
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "src/content/testimonials"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Client Name", name: "name", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Company", name: "company", widget: "string"}
+      - {label: "Industry", name: "industry", widget: "select", options: ["restaurants", "barbers", "healthcare", "other"]}
+      - {label: "Quote", name: "quote", widget: "markdown"}
+      - {label: "Avatar", name: "avatar", widget: "image", required: false}
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+      - {label: "Date", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD"}
+
+  # Blog Posts (optional)
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "src/content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Author", name: "author", widget: "string", default: "RemzTech"}
+      - {label: "Tags", name: "tags", widget: "list", field: {label: "Tag", name: "tag", widget: "string"}}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "Published", name: "published", widget: "boolean", default: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+
+# Customize the admin UI
+local_backend: false

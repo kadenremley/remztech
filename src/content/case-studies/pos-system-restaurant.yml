@@ -1,0 +1,22 @@
+title: "Custom POS & Kitchen Display System"
+client: "The Grill House"
+industry: "restaurants"
+location: "Durban North"
+challenge: |
+  Paper tickets caused lost orders, slow service, and kitchen chaos during peak hours. No real-time inventory tracking led to waste and stockouts. Third-party delivery apps took 30% commission.
+solution: |
+  Built a custom POS with kitchen display system, real-time inventory sync, automated low-stock alerts, integrated online ordering (zero commission), and staff scheduling with labor cost tracking.
+results:
+  - "40% faster table turnover"
+  - "25% reduction in food waste"
+  - "R15k/month saved on commission fees"
+  - "Staff scheduling cut from 4hrs to 30min/week"
+techStack:
+  - "Next.js"
+  - "TypeScript"
+  - "PostgreSQL"
+  - "Tailwind CSS"
+  - "Docker"
+  - "AWS"
+duration: "8 weeks"
+featured: true

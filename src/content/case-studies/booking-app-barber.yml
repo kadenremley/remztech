@@ -1,0 +1,21 @@
+title: "Booking & Client Management App"
+client: "Fade Masters"
+industry: "barbers"
+location: "Umhlanga"
+challenge: |
+  Walk-in chaos, double-bookings, no client history, paper appointment book. Losing 20%+ revenue to no-shows. No retail tracking or loyalty program.
+solution: |
+  Mobile-first booking app with automated WhatsApp reminders, client profiles (preferences, history, photos), walk-in queue management, integrated POS for services/retail, loyalty program (10th cut free).
+results:
+  - "60% reduction in no-shows"
+  - "30% increase in repeat bookings"
+  - "Zero double-bookings since launch"
+  - "R8k/month additional retail revenue"
+techStack:
+  - "React Native"
+  - "Expo"
+  - "Firebase"
+  - "TypeScript"
+  - "Tailwind CSS"
+duration: "6 weeks"
+featured: true

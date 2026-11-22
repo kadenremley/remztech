@@ -1,0 +1,28 @@
+title: "Software Development"
+slug: "software-development"
+icon: "Code"
+shortDesc: "Custom web & mobile applications built from scratch — no templates, no shortcuts."
+fullDesc: |
+  I build custom software that fits your business — not the other way around. Whether it's a customer-facing web app, an internal tool, or a mobile app for your clients, every line of code is written for your specific needs.
+
+  **What this includes:**
+  - Full-stack web applications (React, Next.js, Node.js)
+  - Cross-platform mobile apps (React Native, Flutter)
+  - API design & development (REST, GraphQL)
+  - Database design & optimization (PostgreSQL, MongoDB)
+  - Legacy system modernization
+  - Code reviews & technical debt reduction
+
+  **How we work:**
+  1. Discovery call — understand your problem
+  2. Technical proposal — architecture, timeline, fixed price
+  3. Weekly builds — you see progress, give feedback
+  4. Launch — deploy to production with 30 days support
+features:
+  - "Full-stack web applications (React, Next.js, Node.js)"
+  - "Cross-platform mobile apps (React Native, Flutter)"
+  - "API design & development (REST, GraphQL)"
+  - "Database design & optimization (PostgreSQL, MongoDB)"
+  - "Legacy system modernization"
+  - "Code reviews & technical debt reduction"
+ctaText: "Start Your Project"

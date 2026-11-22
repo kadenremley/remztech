@@ -1,0 +1,28 @@
+title: "Managed Services"
+slug: "managed-services"
+icon: "Monitor"
+shortDesc: "Your systems monitored, maintained, and secured — so you focus on your business."
+fullDesc: |
+  Software needs care. Servers need patches. Backups need verification. I handle the operational burden so your team stays focused on your core business.
+
+  **What this includes:**
+  - 24/7 system monitoring & alerting
+  - Automated backups & disaster recovery
+  - Patch management & security updates
+  - Performance optimization
+  - Monthly health reports
+  - Priority support response
+
+  **What you get:**
+  - Sleep better knowing systems are watched
+  - Never wonder "when did we last test backups?"
+  - Security patches applied within 24 hours
+  - Direct line to the engineer who built it
+features:
+  - "24/7 system monitoring & alerting"
+  - "Automated backups & disaster recovery"
+  - "Patch management & security updates"
+  - "Performance optimization"
+  - "Monthly health reports"
+  - "Priority support response"
+ctaText: "Get Managed Support"

@@ -1,0 +1,22 @@
+title: "Patient Portal & Practice Management"
+client: "Umhlanga Medical Centre"
+industry: "healthcare"
+location: "Umhlanga"
+challenge: |
+  Paper files scattered across cabinets, 25% no-show rate, POPIA compliance gaps risking fines, no patient self-service for booking/results/scripts, telehealth bolted on poorly.
+solution: |
+  Secure patient portal with online booking, automated SMS/WhatsApp reminders, encrypted medical records, POPIA-compliant audit trails, integrated telehealth with clinical notes, e-prescribing.
+results:
+  - "55% reduction in no-shows"
+  - "Full POPIA compliance achieved"
+  - "3 hours/day admin time saved"
+  - "Patient satisfaction 4.8/5 stars"
+techStack:
+  - "Next.js"
+  - "Prisma"
+  - "PostgreSQL"
+  - "TypeScript"
+  - "AWS"
+  - "Twilio"
+duration: "12 weeks"
+featured: true

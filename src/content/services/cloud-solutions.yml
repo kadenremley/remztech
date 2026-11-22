@@ -1,0 +1,28 @@
+title: "Cloud Solutions"
+slug: "cloud-solutions"
+icon: "Cloud"
+shortDesc: "Scalable, cost-effective cloud infrastructure — AWS, Azure, or hybrid, done right."
+fullDesc: |
+  Cloud done wrong is expensive. Cloud done right is a competitive advantage. I design and implement cloud infrastructure that scales with your business and stays predictable.
+
+  **What this includes:**
+  - Cloud migration & modernization
+  - Infrastructure as Code (Terraform, CDK)
+  - Serverless architecture (Lambda, Cloudflare Workers)
+  - Container orchestration (Docker, Kubernetes)
+  - CI/CD pipeline setup & optimization
+  - Cost monitoring & optimization
+
+  **Typical outcomes:**
+  - 40-60% infrastructure cost reduction
+  - Zero-downtime deployments
+  - Auto-scaling that actually works
+  - Full audit trail of every change
+features:
+  - "Cloud migration & modernization"
+  - "Infrastructure as Code (Terraform, CDK)"
+  - "Serverless architecture (Lambda, Cloudflare Workers)"
+  - "Container orchestration (Docker, Kubernetes)"
+  - "CI/CD pipeline setup & optimization"
+  - "Cost monitoring & optimization"
+ctaText: "Move to Cloud"

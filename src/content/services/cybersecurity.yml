@@ -1,0 +1,28 @@
+title: "Light Cybersecurity"
+slug: "cybersecurity"
+icon: "Shield"
+shortDesc: "Practical security hardening for SMEs — protect what matters without enterprise complexity."
+fullDesc: |
+  You don't need a SOC team. You need the basics done right, consistently. I implement practical security measures that protect SMEs without the enterprise price tag.
+
+  **What this includes:**
+  - Vulnerability assessments & penetration testing
+  - Security awareness training for staff
+  - SSL/TLS certificate management
+  - Secure coding practices implementation
+  - Incident response planning
+  - Compliance guidance (POPIA, GDPR basics)
+
+  **Common starting points:**
+  - "We've never had a security review."
+  - "A client asked for our security policy."
+  - "We need POPIA compliance for healthcare data."
+  - "Our SSL certs keep expiring."
+features:
+  - "Vulnerability assessments & penetration testing"
+  - "Security awareness training for staff"
+  - "SSL/TLS certificate management"
+  - "Secure coding practices implementation"
+  - "Incident response planning"
+  - "Compliance guidance (POPIA, GDPR basics)"
+ctaText: "Secure Your Business"

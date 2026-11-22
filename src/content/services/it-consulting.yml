@@ -1,0 +1,28 @@
+title: "IT Consulting"
+slug: "it-consulting"
+icon: "Cpu"
+shortDesc: "Strategic technology guidance aligned with your business goals — not vendor agendas."
+fullDesc: |
+  Technology decisions shouldn't be made by salespeople. I give you honest, vendor-neutral advice based on what actually works for businesses like yours.
+
+  **What this includes:**
+  - Technology roadmap & strategy
+  - Architecture review & design
+  - Vendor evaluation & selection
+  - Cost optimization & cloud migration planning
+  - Team mentoring & best practices
+  - Digital transformation guidance
+
+  **Typical engagements:**
+  - "We're growing fast — what should our stack look like in 2 years?"
+  - "Our AWS bill doubled. Help."
+  - "We need to migrate off this legacy system. What's the plan?"
+  - "Our dev team needs code review process and CI/CD."
+features:
+  - "Technology roadmap & strategy"
+  - "Architecture review & design"
+  - "Vendor evaluation & selection"
+  - "Cost optimization & cloud migration planning"
+  - "Team mentoring & best practices"
+  - "Digital transformation guidance"
+ctaText: "Book a Consultation"
